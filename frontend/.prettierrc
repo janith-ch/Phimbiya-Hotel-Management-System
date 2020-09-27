@@ -1,0 +1,19 @@
+{
+    "semi": false,
+    "overrides": [
+      {
+        "files": "*.ts",
+        "options": {
+          "semi": true,
+          "bracketSpacing": true,
+          "singleQuote": true
+        }
+      },
+      {
+        "files": ["*.html", "legacy/**/*.js"],
+        "options": {
+          "tabWidth": 2
+        }
+      }
+    ]
+  }
